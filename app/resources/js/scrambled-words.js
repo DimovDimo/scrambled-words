@@ -19,11 +19,9 @@ function scrambledWordsSaveFirstAndLastLetter() {
         }
     });
 
-    console.log(result);
+    document.getElementById("result").innerText = result;
 }
 
 function pseudoRandomizeArray(array) {
-    return array.split('')
-        .sort(() => 0.5 - Math.random())
-        .join('');
+    return array.split('').sort(() => 0.5 - Math.random()).join('');
 }
