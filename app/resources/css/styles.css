@@ -1,1 +1,11 @@
-/*TODO: textarea css */
+body {
+    text-align: center;
+}
+
+h1, #scrambledWordsSaveFirstAndLastLetter {
+    margin: 10px;
+}
+
+#result {
+    text-align: left;
+}
