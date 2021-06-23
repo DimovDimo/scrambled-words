@@ -2,7 +2,7 @@ body {
     text-align: center;
 }
 
-h1, #scrambledWordsSaveFirstAndLastLetter {
+.displacement {
     margin: 10px;
 }
 

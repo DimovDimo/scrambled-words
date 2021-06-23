@@ -13,12 +13,18 @@
 
 <body>
 	<main>
-		<h1>Scrambled words</h1>
+		<h1 class="displacement">Scrambled words</h1>
+		<div class="displacement">
+			<button type="button" class="btn btn-light">Blank</button>
+			<button type="button" class="btn btn-light">Sun</button>
+			<button type="button" class="btn btn-light">Earth</button>
+			<button type="button" class="btn btn-light">Lorem Ipsum</button>
+		</div>
 		<div class="form-outline">
 			<textarea class="form-control" id="input"
 				rows="5">According to a study at an English University, it doesn't matter in what order the letters in a word are, the only important thing is that the first and last letter be at the right place. The rest can be a total mess and you can still read it without problem. This is because the human mind does not read every letter by itself but the word as a whole.</textarea>
 		</div>
-		<button id="scrambledWordsSaveFirstAndLastLetter" type="button" class="btn btn-primary">Scrambled words save
+		<button id="scrambledWordsSaveFirstAndLastLetter" type="button" class="btn btn-primary displacement">Scrambled words save
 			first and last letter</button>
 		<div id="result"></div>
 	</main>
