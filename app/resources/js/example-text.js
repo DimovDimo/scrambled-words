@@ -1,12 +1,17 @@
-earth();
+typoglycemia();
 
 document.getElementById("blank").addEventListener("click", blank);
+document.getElementById("typoglycemia").addEventListener("click", typoglycemia);
 document.getElementById("sun").addEventListener("click", sun);
 document.getElementById("earth").addEventListener("click", earth);
 document.getElementById("lorem-ipsum").addEventListener("click", loremIpsum);
 
 function blank() {
     document.getElementById("input").value = "";
+}
+
+function typoglycemia() {
+    document.getElementById("input").value = "Typoglycemia is an urban legend and Internet meme that only appears to be correct. \"Aoccdrnig to a rscheearch at Cmabrigde Uinervtisy, it deosn't mttaer in waht oredr the ltteers in a wrod are, the olny iprmoetnt tihng is taht the frist and lsat ltteer be at the rghit pclae. The rset can be a toatl mses and you can sitll raed it wouthit porbelm. Tihs is bcuseae the huamn mnid deos not raed ervey lteter by istlef, but the wrod as a wlohe.\" No such research was carried out at the University of Cambridge until 2021. Sources: https://www.mrc-cbu.cam.ac.uk/people/matt.davis/cmabridge, https://www.newscientist.com/letter/mg16221887-600-reibadailty and https://en.wikipedia.org/wiki/Typoglycemia";
 }
 
 function sun() {
