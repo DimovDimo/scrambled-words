@@ -6,6 +6,11 @@ body {
     margin: 10px;
 }
 
+.particle-width {
+    margin: auto;
+    width: 90%;
+}
+
 #result {
     text-align: left;
 }
